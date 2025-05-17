@@ -1,0 +1,16 @@
+<?php
+
+namespace DummyNamespace;
+
+use Saf\DateRangePicker\Livewire\DateRangePicker as BasePicker;
+
+class DummyClass extends BasePicker
+{
+    public function getLivewireHoverData($currentMonthYear)
+    {
+        return [
+            1 => "First Day Hover Data for {$currentMonthYear}",
+            2 => "Second Day Hover Data for {$currentMonthYear}",
+        ];
+    }
+}

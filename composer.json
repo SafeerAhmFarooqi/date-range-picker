@@ -1,0 +1,31 @@
+{
+  "name": "saf/date-range-picker",
+  "description": "A Livewire-powered date range picker component",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    { "name": "Safeer Ahmed Farooqi", "email": "saf_farooqi@hotmail.com" }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Saf\\DateRangePicker\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Saf\\DateRangePicker\\DateRangePickerServiceProvider"
+      ],
+      "aliases": {
+        "DateRangeFormatter": "Saf\\DateRangePicker\\Facades\\DateRangeFormatter"
+      }
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "livewire/livewire": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}
