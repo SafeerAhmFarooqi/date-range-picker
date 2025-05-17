@@ -1,7 +1,7 @@
 {
-  "name": "saf/date-range-picker",
+  "name": "safeer/date-range-picker",
   "description": "A Livewire-powered date range picker component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
     { "name": "Safeer Ahmed Farooqi", "email": "saf_farooqi@hotmail.com" }
