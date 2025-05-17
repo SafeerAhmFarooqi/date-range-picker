@@ -7,7 +7,8 @@ A Livewire-powered date range picker component for Laravel applications, offerin
 
 - [Requirements](#requirements)  
 - [Installation](#installation)  
-- [Publishing Assets & Stubs](#publishing-assets--stubs)  
+- [Publishing View](#publishing-view)  
+- [Demo](#demo) 
 - [Usage](#usage)  
   - [Blade Integration](#blade-integration)  
   - [Customization via Subclassing](#customization-via-subclassing)  
@@ -37,9 +38,9 @@ composer require safeer/date-range-picker
 The package’s service provider and facade alias will be auto-discovered thanks to PSR-4 & Laravel’s package discovery.
 
 
-## Publishing Assets & Stubs
+## Publishing View
 
-To customize views, public assets, or the stub used by the `saf:make-daterange-picker` command, publish them:
+To customize view used by the `saf:make-daterange-picker` command, publish it:
 ```bash
 # Publish views
 php artisan vendor:publish \
@@ -50,6 +51,13 @@ This will copy:
 
 -   **Views** → `resources/views/vendor/saf-date-range-picker`
     
+## Demo
+
+**Light Mode**  
+![Date Range Picker – Light Mode](screenshots/light-mode.png)
+
+**Dark Mode**  
+![Date Range Picker – Dark Mode](screenshots/dark-mode.png)
     
 ## Usage
 
