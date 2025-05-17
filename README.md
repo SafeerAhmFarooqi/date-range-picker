@@ -32,7 +32,7 @@ A Livewire-powered date range picker component for Laravel applications, offerin
 Require the package via Composer:
 
 ```bash
-composer require saf/date-range-picker
+composer require safeer/date-range-picker
 ```
 The package’s service provider and facade alias will be auto-discovered thanks to PSR-4 & Laravel’s package discovery.
 
